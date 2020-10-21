@@ -147,3 +147,34 @@ img {
   }
 
 }
+
+/* Bonus dimensioni schermo da Tablet*/
+@media screen and (min-width: 421px) and (max-width: 768px){
+  .row{
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.center{
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+
+  #steps .row>.right{
+    width: 100%;
+    float: left;
+  }
+
+  .container{
+    font-size: x-large;
+  }
+
+  .container.grey{
+    width: 100%;
+  }
+
+  img{
+    height: 150px;
+  }
+}
