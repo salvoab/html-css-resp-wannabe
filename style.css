@@ -141,4 +141,9 @@ img {
     padding: 20px;
   }
 
+  /* Tipografia */
+  .container{
+    font-size: x-large;
+  }
+
 }
