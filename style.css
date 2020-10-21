@@ -74,9 +74,14 @@ img {
 
 /* Sezione aggiunta da me per Media Query */
 @media screen and (max-width: 420px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .row {
     width: 100%;
-    margin-top: 10px;
+    margin: 0;
   }
 
   /* BLOCCO LEZIONI */
@@ -112,5 +117,9 @@ img {
   /* COMMON */
   img {
     height: 100px;
+  }
+
+  .container.grey {
+    background-color: white;
   }
 }
