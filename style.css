@@ -76,8 +76,6 @@ img {
 @media screen and (max-width: 420px){
   .row {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
   }
 
@@ -90,5 +88,29 @@ img {
   #lezioni .row>.right {
     width: 100%;
     float: none;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  /* BLOCCO PERCHE */
+  #why{
+    background-color: #f2f2cd;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+
+  /* COMMON */
+  img {
+    height: 100px;
   }
 }
