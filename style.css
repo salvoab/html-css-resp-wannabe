@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+/* Sezione aggiunta da me per Media Query */
+@media screen and (max-width: 420px){
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni{
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+}
